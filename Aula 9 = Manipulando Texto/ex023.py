@@ -1,0 +1,6 @@
+num = int(input('Type a number between 0 and 9999:'))
+print('Analysing the number {}'.format(num))
+print('units:{}'.format(num // 1 % 10))
+print('dozen:{}'.format(num // 10 % 10))
+print('hundreds:{}'.format(num // 100 % 10))
+print('thousand:{}'.format(num // 1000 % 10))
